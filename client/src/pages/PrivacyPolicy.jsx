@@ -2,7 +2,7 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <section className="blog-details-content content-page-section">
+    <section className="blog-details-content content-page-section" style={{paddingTop:"5.5em"}}>
       <div className="blog-content container">
 
         {/* Header */}

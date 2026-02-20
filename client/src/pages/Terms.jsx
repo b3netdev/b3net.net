@@ -2,7 +2,7 @@ import React from "react";
 
 const Terms = () => {
   return (
-    <section className="blog-details-content content-page-section">
+    <section className="blog-details-content content-page-section" style={{paddingTop:"5.5em"}}>
       <div className="blog-content container">
         <section className="privacy-header text-center">
           <div className="container">

@@ -51,7 +51,7 @@ const Navbar = () => {
                   <ScrollLink
                     to={to}
                     smooth={true}
-                    duration={300}
+                    duration={100}
                     offset={-75}
                     spy={true}
                     activeClass="active"
@@ -79,7 +79,7 @@ const Navbar = () => {
               <ScrollLink
                 to="contact"
                 smooth={true}
-                duration={300}
+                duration={100}
                 offset={-75}
                 onClick={() => setOpen(false)}
                 spy={false}
