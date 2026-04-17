@@ -101,6 +101,42 @@ const Terms = () => {
               </p>
 
               <h3>
+                <i className="fa-solid fa-envelope icon-box"></i> Delivery and Shipping Policy (Digital Services) 
+                <br />
+              </h3>
+
+              <p>
+              Since B3 NET Technologies Pvt Ltd deals in digital services such as Web Design, App Development, Digital Marketing, and AI solutions, we do not ship physical products.
+              </p>
+              <ul>
+                <li> <strong>Delivery Method:</strong> All project deliverables, code, designs, and marketing reports are delivered digitally. This delivery occurs via email, secure server transfers, cloud storage links, or dedicated staging environments.</li>
+                <li> <strong>Delivery Timelines:</strong> Delivery timelines are strictly tied to the project scope. Estimated delivery schedules (e.g., 4 to 8 weeks for a standard web development project) are clearly defined in the individual Statement of Work (SOW) or proposal provided to the client prior to project initiation. Monthly retainers (such as SEO or Digital Marketing) are delivered on an ongoing monthly basis.
+                </li>
+                <li> <strong>Acceptance:</strong> Delivery is considered fulfilled when the digital product is deployed, the staging link is approved by the client, or the monthly service report is submitted.
+                </li>
+              </ul>
+
+              <h3>Refund and Cancellation Policy</h3>
+              <p>We strive to deliver exceptional digital experiences, but we understand that business needs may change. Our cancellation and refund guidelines are as follows:              </p>
+              <ul>
+                <li><strong>Project Cancellation:</strong> Clients may request to cancel a project or ongoing service by providing written notice to info@b3net.org.
+                </li>
+                <li><strong>Refund Eligibility:</strong>
+                <ul>
+                  <li> <strong>Upfront Deposits:</strong>  Due to the immediate allocation of resources, team time, and project planning, initial project deposits are generally non-refundable once work has commenced.
+                  </li>
+                  <li> <strong>Mid-Project Cancellations:</strong>  If a web or app development project is cancelled while in progress, the client will only be billed for the milestones completed or the hours worked up until the date of cancellation. If the client has paid for phases that have not yet begun, a prorated refund for those uninitiated phases will be issued.
+                  </li>
+                  <li><strong>Subscription Services:</strong> Month-to-month or ongoing digital marketing services require a 30-day written cancellation notice. We do not offer refunds for months where the service has already been rendered.
+                  </li>
+                </ul>
+                 </li>
+                <li><strong>Refund Processing:</strong> If a refund is approved, it will be initiated within 5 to 7 business days. The refunded amount will automatically be credited back to the client's original method of payment (e.g., the specific credit card or bank account used for the initial transaction).
+                </li>
+              </ul>
+
+
+              <h3>
                 <i className="fa-solid fa-envelope icon-box"></i> Contact
                 Information
                 <br />
