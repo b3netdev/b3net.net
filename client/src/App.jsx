@@ -10,6 +10,7 @@ import Layout from './components/Layout/Layout'
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
 import Thankyou from './pages/Thankyou'; 
+import PaymentPage from './pages/Payment';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
         <Route  path='/privacy-policy' element={<PrivacyPolicy />} />
         <Route  path='/terms' element={<Terms />} />
         <Route  path='/thankyou' element={<Thankyou/>} />
+        <Route  path='/payment' element={<PaymentPage/>} />
 
 
       </Route>
