@@ -1,0 +1,122 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.navbar .nav-link {
+  color: #222629;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.navbar .nav-link:hover {
+  color: var(--primary);
+}
+
+.navbar .nav-link.active {
+  color: var(--primary);
+}
+
+.navbar-expand-lg .navbar-nav {
+  gap: 30px;
+}
+
+.topHeader {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999 !important;
+  background-color: #ffff;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbox {
+  width: 100%;
+}
+
+.containerNav {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbarBrand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.logoImg {
+  width: 200px;
+  height: auto;
+  transition: 0.3s;
+  min-width: 170px;
+}
+
+.menuToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.navMenu {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+
+.buttonGradient {
+  background: linear-gradient(90deg, #0d246a 0%, #379ebe 80%);
+  color: white;
+  border: 2px solid white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.6s ease;
+  font-size: 18px;
+}
+
+.buttonGradient:hover {
+  background-image: linear-gradient(270deg, #0e266b 0%, #379ebe 100%);
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.navLink {
+  color: #3c3e3f;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.8;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.navLink:hover {
+  color: var(--primary);
+}
+
+.activeNavLink {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.viewWork {}

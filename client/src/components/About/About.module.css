@@ -1,0 +1,88 @@
+.aboutContainer {
+    height: auto;
+}
+
+.aboutHeading {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.aboutHeading span {
+    background: linear-gradient(90deg, #0d246a 0%, #379ebe 80%);
+    padding: 2px 20px;
+}
+
+.AboutText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutText div {
+    width: 60%;
+}
+
+.CardBox {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.CardContainer {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.Card {
+    position: relative;
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2ecf6;
+    transition: 0.3s ease;
+    height: 100%;
+    text-align: left;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.Card:hover {
+    border: 1px solid #0d246a;
+}
+
+.iconimgsec {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    border-radius: 12px;
+    background: linear-gradient(120deg, #0d246a 0%, #379ebe 90%);
+    /* background-image:url(../images/icons-bg.png); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.missionbox {
+    font-size: 20px;
+    background: white;
+    padding: 25px 160px;
+    border-radius: 20px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 30px;
+}
+
+.textGradient {
+    /* background: var(--gradient-hero); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
