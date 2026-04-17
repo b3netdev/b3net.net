@@ -31,6 +31,7 @@ import Company9 from "../../assets/images/company-logos/company-logos-9.png";
 import Company10 from "../../assets/images/company-logos/company-logos-10.png";
 import Company11 from "../../assets/images/company-logos/company-logos-11.png";
 import Company12 from "../../assets/images/company-logos/company-logos-12.png";
+import Company13 from "../../assets/images/Semrush.webp";
 import { useState } from "react";
 
 const Expertise = () => {
@@ -41,7 +42,7 @@ const Expertise = () => {
   ];
   const [tab, setTab] = useState(1);
 
-  console.log(tab)
+  const Base_url = "https://backend.b3net.com"
 
   return (
     <div className="container">
@@ -122,31 +123,31 @@ const Expertise = () => {
             <div className="skills-flex">
               <div className="skill-box p-2 p-md-3 border-img bg-white text-center">
                 <img
-                  src="https://www.b3net.com/wp-content/themes/b3net/assets/images/tools/Google-search-console.png"
+                  src={`${Base_url}/wp-content/themes/b3net/assets/images/tools/Google-search-console.png`}
                   className="img-fluid"
                 />
               </div>
               <div className="skill-box p-2 p-md-3 border-img bg-white text-center">
                 <img
-                  src="https://www.b3net.com/wp-content/themes/b3net/assets/images/tools/Google-Analytics.png"
+                  src={`${Base_url}/wp-content/themes/b3net/assets/images/tools/Google-Analytics.png`}
                   className="img-fluid"
                 />
               </div>
               <div className="skill-box p-2 p-md-3 border-img bg-white text-center">
                 <img
-                  src="https://www.b3net.com/wp-content/themes/b3net/assets/images/tools/Semrush.png"
+                  src={Company13}
                   className="img-fluid"
                 />
               </div>
               <div className="skill-box p-2 p-md-3 border-img bg-white text-center">
                 <img
-                  src="https://www.b3net.com/wp-content/themes/b3net/assets/images/tools/ahrefs.png"
+                  src={`${Base_url}/wp-content/themes/b3net/assets/images/tools/ahrefs.png`}
                   className="img-fluid"
                 />
               </div>
               <div className="skill-box p-2 p-md-3 border-img bg-white text-center">
                 <img
-                  src="https://www.b3net.com/wp-content/themes/b3net/assets/images/tools/HubSpot.png"
+                  src={`${Base_url}/wp-content/themes/b3net/assets/images/tools/HubSpot.png`}
                   className="img-fluid"
                 />
               </div>
@@ -161,7 +162,7 @@ const Expertise = () => {
                   key={n}
                 >
                   <img
-                    src={`https://www.b3net.com/wp-content/themes/b3net/assets/images/design/ai-${n}.jpg`}
+                    src={`${Base_url}/wp-content/themes/b3net/assets/images/design/ai-${n}.jpg`}
                     className="img-fluid"
                   />
                 </div>
